@@ -23,19 +23,19 @@ function callApi(estatus){
     });
 }
 adelante.addEventListener("click", function (){
-    callApi('w')
+    callApi('a')
 });
 derecha.addEventListener("click", function () {
-    callApi('d')
+    callApi('b')
 });
 detener.addEventListener("click", function () {
-    callApi('q')
+    callApi('c')
 });
 atras.addEventListener("click", function () {
-    callApi('s')
+    callApi('d')
 });
 izquierda.addEventListener("click", function () {
-    callApi('a')
+    callApi('s')
 });
 /*
 let adelante= document.getElementById('adelante');
